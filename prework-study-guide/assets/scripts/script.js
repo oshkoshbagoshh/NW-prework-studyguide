@@ -45,33 +45,40 @@ function listTopics() {
 }
 
 // function selectTopic() {
-// 	if (topic === 'HTML'){
+// 	if (topics[0] === 'HTML'){
 // 		console.log("Let's study HTML!");
-// 	} else if (topic === 'CSS') {
+// 	} else if (topics[0] === 'CSS') {
 // 		console.log("Let's study CSS!");
-// 	} else if (topic === 'Git') {
+// 	} else if (topics[0] === 'Git') {
 // 		console.log("Let's study Git!");
-// 	} else if (topic === 'JavaScript') {
+// 	} else if (topics[0] === 'JavaScript') {
 // 		console.log("Let's study JavaScript");
 // 	} else {
 // 		console.log('Please try again!');
 // 	}
 // }
+
 function selectTopic() {
-  if (randomTopic === 'HTML') {
-    console.log("Let's study HTML!");
-  } else if (randomTopic === 'CSS') {
-    console.log("Let's study CSS!");
-  } else if (randomTopic === 'Git') {
-    console.log("Let's study Git!");
-  } else if (randomTopic === 'JavaScript') {
-    console.log("Let's study JavaScript!");
-  } else {
-    console.log('Please try again!');
-  }
+
+	if (randomTopic === 'HTML'){
+		console.log("Let's study HTML!");
+	} else if (randomTopic === 'CSS') {
+		console.log("Let's study CSS");
+	}  else if (randomTopic === 'Git') {
+			console.log("Let's study Git!"); 
+	} else if (randomTopic === 'JavaScript') {
+			console.log("Let's study JavaScript!");
+	} else  {
+		console.log("Please try again!");
+	}
+
+
 }
+
 
 console.log('Here are the topics we learned through Prework:');
 listTopics();
+console.log(listTopics());
 console.log('Which topic should we study first?');
 selectTopic();
+// selectTopic();
