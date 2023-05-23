@@ -34,7 +34,7 @@ To install this project, all you need is Git, HTML, CSS, and JavaScript. Or you 
 <!-- To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
  -->
 <!-- ![alt text](assets/images/screenshot.png) -->
-![screenshot of image](![image](https://github.com/oshkoshbagoshh/NW-prework-studyguide/assets/13925531/25130896-1ea8-4bb5-af4a-abf8066d9cd1)
+![image](https://github.com/oshkoshbagoshh/NW-prework-studyguide/assets/13925531/25130896-1ea8-4bb5-af4a-abf8066d9cd1)
 
 
 ## Credits
